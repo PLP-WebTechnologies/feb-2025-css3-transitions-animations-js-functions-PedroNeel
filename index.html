@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Animations & Preferences</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Site</h1>
+        
+        <div class="preference-panel">
+            <h2>Your Preferences</h2>
+            <div class="theme-selector">
+                <label for="theme">Select Theme:</label>
+                <select id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="blue">Blue</option>
+                </select>
+            </div>
+            <button id="savePrefs">Save Preferences</button>
+        </div>
+        
+        <div class="animation-area">
+            <div class="animated-box" id="targetBox"></div>
+            <button id="animateBtn">Animate Box</button>
+            <button id="resetBtn">Reset Animation</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
